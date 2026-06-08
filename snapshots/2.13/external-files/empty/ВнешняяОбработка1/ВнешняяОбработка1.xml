@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MetaDataObject xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ns="http://v8.1c.ru/8.2/managed-application/modules" xmlns:ns10="http://v8.1c.ru/8.2/data/bsl" xmlns:ns11="http://v8.1c.ru/8.2/uobjects" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:ns13="http://v8.1c.ru/8.2/data/spreadsheet" version="2.13">
+    <ExternalDataProcessor uuid="13760d47-5d03-45d5-8741-28ba0897934d">
+        <InternalInfo>
+            <xr:GeneratedType category="Object" name="ExternalDataProcessorObject.ВнешняяОбработка1">
+                <xr:TypeId>a05a5f67-a263-4fe2-9d4c-fa404ddc2119</xr:TypeId>
+                <xr:ValueId>a6695fd3-8220-48d4-b0ae-14cdf1ba4b72</xr:ValueId>
+            </xr:GeneratedType>
+            <xr:ContainedObject>
+                <xr:ClassId>c3831ec8-d8d5-4f93-8a22-f9bfae07327f</xr:ClassId>
+                <xr:ObjectId>728696df-c8ba-469f-8049-2bb1dd02e97c</xr:ObjectId>
+            </xr:ContainedObject>
+        </InternalInfo>
+        <Properties>
+            <Name>ВнешняяОбработка1</Name>
+            <Synonym/>
+            <Comment></Comment>
+            <DefaultForm></DefaultForm>
+            <AuxiliaryForm></AuxiliaryForm>
+        </Properties>
+        <ChildObjects/>
+    </ExternalDataProcessor>
+</MetaDataObject>

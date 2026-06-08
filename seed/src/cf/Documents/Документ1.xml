@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ns="http://v8.1c.ru/8.2/managed-application/modules" xmlns:ns10="http://v8.1c.ru/8.2/data/bsl" xmlns:ns11="http://v8.1c.ru/8.2/uobjects" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:ns13="http://v8.1c.ru/8.2/data/spreadsheet" version="2.10">
+    <Document uuid="522db5a6-316d-33e7-afaa-fc55fa2dc24c">
+        <InternalInfo>
+            <xr:GeneratedType category="Object" name="DocumentObject.Документ1">
+                <xr:TypeId>858f6bf6-632a-3129-a9bc-953bb3736335</xr:TypeId>
+                <xr:ValueId>18d25aad-56d1-33da-8e8d-27592808e489</xr:ValueId>
+            </xr:GeneratedType>
+            <xr:GeneratedType category="Ref" name="DocumentRef.Документ1">
+                <xr:TypeId>f0d0ddfc-2263-385a-b977-97421aa56590</xr:TypeId>
+                <xr:ValueId>d1d07fb9-fbde-313b-a718-e8a372125caa</xr:ValueId>
+            </xr:GeneratedType>
+            <xr:GeneratedType category="Selection" name="DocumentSelection.Документ1">
+                <xr:TypeId>5986d0ac-d55d-3edb-98ca-ba948d57b779</xr:TypeId>
+                <xr:ValueId>7379ce4a-93e4-3db9-b048-447b0ce3f907</xr:ValueId>
+            </xr:GeneratedType>
+            <xr:GeneratedType category="List" name="DocumentList.Документ1">
+                <xr:TypeId>a7fd5aa4-8793-387a-b6f3-8e490fd1bc28</xr:TypeId>
+                <xr:ValueId>d4c11a77-5c12-358b-89a4-f8e37f2889f3</xr:ValueId>
+            </xr:GeneratedType>
+            <xr:GeneratedType category="Manager" name="DocumentManager.Документ1">
+                <xr:TypeId>60621f87-464e-3e51-b448-bd2e99e20bbe</xr:TypeId>
+                <xr:ValueId>66135b72-2f7c-3f3b-b383-60308f94bdfe</xr:ValueId>
+            </xr:GeneratedType>
+        </InternalInfo>
+        <Properties>
+            <Name>Документ1</Name>
+            <Synonym/>
+            <Comment></Comment>
+            <UseStandardCommands>true</UseStandardCommands>
+            <Numerator></Numerator>
+            <NumberType>String</NumberType>
+            <NumberLength>9</NumberLength>
+            <NumberAllowedLength>Variable</NumberAllowedLength>
+            <NumberPeriodicity>Nonperiodical</NumberPeriodicity>
+            <CheckUnique>true</CheckUnique>
+            <Autonumbering>true</Autonumbering>
+            <Characteristics/>
+            <BasedOn/>
+            <InputByString>
+                <xr:Field>Document.Документ1.StandardAttribute.Number</xr:Field>
+            </InputByString>
+            <CreateOnInput>Use</CreateOnInput>
+            <SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
+            <FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+            <ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+            <DefaultObjectForm></DefaultObjectForm>
+            <DefaultListForm></DefaultListForm>
+            <DefaultChoiceForm></DefaultChoiceForm>
+            <AuxiliaryObjectForm></AuxiliaryObjectForm>
+            <AuxiliaryListForm></AuxiliaryListForm>
+            <AuxiliaryChoiceForm></AuxiliaryChoiceForm>
+            <Posting>Allow</Posting>
+            <RealTimePosting>Allow</RealTimePosting>
+            <RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
+            <RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
+            <SequenceFilling>AutoFill</SequenceFilling>
+            <RegisterRecords/>
+            <PostInPrivilegedMode>true</PostInPrivilegedMode>
+            <UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
+            <IncludeHelpInContents>false</IncludeHelpInContents>
+            <DataLockFields/>
+            <DataLockControlMode>Managed</DataLockControlMode>
+            <FullTextSearch>Use</FullTextSearch>
+            <ObjectPresentation/>
+            <ExtendedObjectPresentation/>
+            <ListPresentation/>
+            <ExtendedListPresentation/>
+            <Explanation/>
+            <ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+            <DataHistory>DontUse</DataHistory>
+            <UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+            <ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+        </Properties>
+        <ChildObjects/>
+    </Document>
+</MetaDataObject>

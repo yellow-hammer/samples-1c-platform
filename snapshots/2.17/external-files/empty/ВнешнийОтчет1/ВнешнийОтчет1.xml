@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MetaDataObject xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ns="http://v8.1c.ru/8.2/managed-application/modules" xmlns:ns10="http://v8.1c.ru/8.2/data/bsl" xmlns:ns11="http://v8.1c.ru/8.2/uobjects" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:ns13="http://v8.1c.ru/8.2/data/spreadsheet" version="2.17">
+    <ExternalReport uuid="f5e1aea6-3419-4655-93a1-3fc1ecdb146a">
+        <InternalInfo>
+            <xr:GeneratedType category="Object" name="ExternalReportObject.ВнешнийОтчет1">
+                <xr:TypeId>849ee749-06af-47af-adae-ce4511e65a17</xr:TypeId>
+                <xr:ValueId>0dea1b2c-6bcf-4ef6-8ed1-22576caec8d2</xr:ValueId>
+            </xr:GeneratedType>
+            <xr:ContainedObject>
+                <xr:ClassId>e41aff26-25cf-4bb6-b6c1-3f478a75f374</xr:ClassId>
+                <xr:ObjectId>1dbf66cd-42ae-4942-a79e-058155e19583</xr:ObjectId>
+            </xr:ContainedObject>
+        </InternalInfo>
+        <Properties>
+            <Name>ВнешнийОтчет1</Name>
+            <Synonym/>
+            <Comment></Comment>
+            <DefaultForm></DefaultForm>
+            <AuxiliaryForm></AuxiliaryForm>
+            <MainDataCompositionSchema></MainDataCompositionSchema>
+            <DefaultSettingsForm></DefaultSettingsForm>
+            <AuxiliarySettingsForm></AuxiliarySettingsForm>
+            <DefaultVariantForm></DefaultVariantForm>
+            <VariantsStorage></VariantsStorage>
+            <SettingsStorage></SettingsStorage>
+        </Properties>
+        <ChildObjects/>
+    </ExternalReport>
+</MetaDataObject>
