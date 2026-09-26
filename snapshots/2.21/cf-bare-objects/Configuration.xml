@@ -258,24 +258,52 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Подсистема1</Subsystem>
+			<StyleItem>ЭлементСтиля1</StyleItem>
+			<Style>Стиль1</Style>
 			<CommonPicture>ОбщаяКартинка1</CommonPicture>
 			<SessionParameter>ПараметрСеанса1</SessionParameter>
 			<Role>Роль1</Role>
+			<CommonTemplate>ОбщийМакет1</CommonTemplate>
+			<FilterCriterion>КритерийОтбора1</FilterCriterion>
 			<CommonModule>ОбщийМодуль1</CommonModule>
 			<CommonAttribute>ОбщийРеквизит1</CommonAttribute>
 			<ExchangePlan>ПланОбмена1</ExchangePlan>
+			<XDTOPackage>ПакетXDTO1</XDTOPackage>
+			<WebService>WebСервис1</WebService>
+			<HTTPService>HTTPСервис1</HTTPService>
+			<WSReference>WSСсылка1</WSReference>
+			<WebSocketClient>WebSocketКлиент1</WebSocketClient>
+			<EventSubscription>ПодпискаНаСобытие1</EventSubscription>
+			<ScheduledJob>РегламентноеЗадание1</ScheduledJob>
+			<SettingsStorage>ХранилищеНастроек1</SettingsStorage>
+			<FunctionalOption>ФункциональнаяОпция1</FunctionalOption>
+			<FunctionalOptionsParameter>ПараметрФункциональныхОпций1</FunctionalOptionsParameter>
+			<DefinedType>ОпределяемыйТип1</DefinedType>
+			<Bot>Бот1</Bot>
+			<PaletteColor>ЦветПалитры1</PaletteColor>
+			<CommonCommand>ОбщаяКоманда1</CommonCommand>
+			<CommandGroup>ГруппаКоманд1</CommandGroup>
 			<Constant>Константа1</Constant>
+			<CommonForm>ОбщаяФорма1</CommonForm>
 			<Catalog>Справочник1</Catalog>
 			<Document>Документ1</Document>
 			<DocumentNumerator>Нумератор1</DocumentNumerator>
+			<Sequence>Последовательность1</Sequence>
+			<DocumentJournal>ЖурналДокументов1</DocumentJournal>
 			<Enum>Перечисление1</Enum>
 			<Report>Отчет1</Report>
 			<DataProcessor>Обработка1</DataProcessor>
+			<InformationRegister>РегистрСведений1</InformationRegister>
+			<AccumulationRegister>РегистрНакопления1</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ПланВидовХарактеристик1</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>ПланСчетов1</ChartOfAccounts>
+			<AccountingRegister>РегистрБухгалтерии1</AccountingRegister>
 			<ChartOfCalculationTypes>ПланВидовРасчета1</ChartOfCalculationTypes>
+			<CalculationRegister>РегистрРасчета1</CalculationRegister>
+			<BusinessProcess>БизнесПроцесс1</BusinessProcess>
 			<Task>Задача1</Task>
 			<ExternalDataSource>ВнешнийИсточник1</ExternalDataSource>
+			<IntegrationService>СервисИнтеграции1</IntegrationService>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
