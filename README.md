@@ -8,11 +8,11 @@
   - `cf-bare-objects/` — по одному **голому** объекту каждого вида, `Configuration.xml`, язык и права роли;
   - `cf-object-nodes/` — объект-владелец каждого вида с дочерним узлом каждого вида: реквизит, табличная часть, команда, измерение, ресурс… (эталон узлов для `md-sparrow`);
   - `cf-empty-infobase/` — конфигурация новой пустой информационной базы;
-  - `cfe-empty/` — пустое расширение (форматы 2.14–2.21);
+  - `cfe-empty/` — пустое расширение. С 2.13 его создаёт сама платформа (`ibcmd infobase config extension create`); у `ibcmd` 8.3.17–8.3.19 (2.10–2.12) этой команды нет, поэтому расширение загружается из минимального семени (`config import --extension`), а всё, чего в семени нет, дописывает и выгружает платформа;
   - `external-files/empty/` — голые внешний отчёт и обработка;
   - `external-files/empty-full-objects/` — внешние отчёт и обработка с формами и модулями.
 
-Эталоны снимает с платформы нужной версии инструмент [`tools/golden-snapshots`](https://github.com/yellow-hammer/md-sparrow/tree/main/tools/golden-snapshots) из `md-sparrow` (локально или workflow `golden-snapshots` на CI) через `ibcmd`, без конфигуратора; семя — там же. Не все каталоги есть у всех форматов: всех видов, пустой базы и внешних объектов пока нет у форматов, платформ которых не было при съёмке, а `ibcmd` платформ до 8.3.23 внешние объекты не собирает. Перекодированных из другого формата файлов здесь нет.
+Эталоны снимает с платформы нужной версии инструмент [`tools/golden-snapshots`](https://github.com/yellow-hammer/md-sparrow/tree/main/tools/golden-snapshots) из `md-sparrow` (локально или workflow `golden-snapshots` на CI) через `ibcmd`, без конфигуратора; семя — там же. Все каталоги есть у всех форматов, кроме `external-files/`: `ibcmd` платформ до 8.3.23 внешние объекты не собирает, поэтому они есть с 2.16. Перекодированных из другого формата файлов здесь нет.
 
 Подробнее о роли эталонов — `md-sparrow`: [docs/scaffold-golden.md](https://github.com/yellow-hammer/md-sparrow/blob/main/docs/scaffold-golden.md).
 
