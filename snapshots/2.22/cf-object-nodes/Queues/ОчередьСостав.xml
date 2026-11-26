@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.22">
+	<Queue uuid="d6aad58f-65c4-5836-b736-73d8e30459c8">
+		<InternalInfo>
+			<xr:GeneratedType name="QueueMessage.ОчередьСостав" category="Record">
+				<xr:TypeId>1da1c58f-2e04-580f-b70d-37076f6f530b</xr:TypeId>
+				<xr:ValueId>0a2ef6dd-3024-55f8-af72-9002a90f0a93</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="QueueManager.ОчередьСостав" category="Manager">
+				<xr:TypeId>30367e88-2b08-5fe4-b662-b82b9e80ade2</xr:TypeId>
+				<xr:ValueId>e8af48b4-5682-5a31-a225-79b224a70bab</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОчередьСостав</Name>
+			<Synonym/>
+			<Comment/>
+			<Transactioned>true</Transactioned>
+			<ProcessingPortionSize>1000</ProcessingPortionSize>
+			<AutoProcessing>true</AutoProcessing>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="5af1604b-6ebb-52e1-b1c4-41295bdd09f9">
+				<Properties>
+					<Name>Измерение1</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Измерение1</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Attribute uuid="c647e929-d1cf-53fc-bfda-f7318ba9af6d">
+				<Properties>
+					<Name>Реквизит1</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Реквизит1</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Queue>
+</MetaDataObject>
